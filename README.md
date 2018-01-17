@@ -2,10 +2,12 @@
 react-native-iconfont
 
 
-import Icon from 'react-native-iconfont';
 
 
 ```code
+
+import Icon from 'react-native-iconfont';
+
 <Icon
           position='left'
           icon='e632'
