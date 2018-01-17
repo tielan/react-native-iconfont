@@ -2,22 +2,18 @@
 react-native-iconfont
 
 
-##user install
+## user install
 
-```code
 npm install react-native-iconfont --save
 
-##android
+## android
 
-```code
 copy iconfont.ttf to  assets/fonts
 
 
-```code
-
 import Icon from 'react-native-iconfont';
 
-<Icon
+> <Icon
           position='left'
           icon='e632'
           iconPadding={12}
