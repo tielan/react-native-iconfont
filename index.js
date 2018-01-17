@@ -10,7 +10,7 @@ var styles = StyleSheet.create({
   }
 });
 
-class Iconfont extends React.Component {
+class Icon extends React.Component {
   render() {
     const {
       fontFamily,
@@ -63,32 +63,9 @@ class Iconfont extends React.Component {
   }
 
 }
-//自定义属性
-Iconfont.propTypes = {
-  //iconfont显示文本
-  label: React.PropTypes.string,
-  //iconfont显示的icon(如e603)
-  icon: React.PropTypes.string,
-  //字体文件
-  fontFamily: React.PropTypes.string,
-  //icon颜色
-  iconColor: React.PropTypes.string,
-  //文本相对于icon的位置（left/right/top/bottom/none）
-  position: React.PropTypes.string,
-  //icon大小
-  iconSize: React.PropTypes.number,
-  //文本大小
-  labelSize: React.PropTypes.number,
-  //文本颜色
-  labelColor: React.PropTypes.string,
-  //背景颜色
-  bgColor: React.PropTypes.string,
-  //图标和文字的间距
-  iconPadding: React.PropTypes.number
-}
 
 //默认属性
-Iconfont.defaultProps = {
+Icon.defaultProps = {
   fontFamily: 'iconfont',
   iconColor: '#fff',
   position: 'right',
@@ -97,5 +74,6 @@ Iconfont.defaultProps = {
   labelColor: '#000',
   bgColor: '#0000',
   iconPadding: 3,
+  label:''
 }
-export default Iconfont;
+export default Icon;
