@@ -3,11 +3,10 @@ react-native-iconfont
 
 
 ## user install
-``
-npm install react-native-iconfont --save
-``
-## android
 
+> npm install react-native-iconfont --save
+
+## android
 
 copy iconfont.ttf to  assets/fonts
 
@@ -21,4 +20,3 @@ import Icon from 'react-native-iconfont';
           label='left'
           iconColor='#000'
         />
-``
