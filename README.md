@@ -2,6 +2,15 @@
 react-native-iconfont
 
 
+##user install
+
+```code
+npm install react-native-iconfont --save
+
+##android
+
+```code
+copy iconfont.ttf to  assets/fonts
 
 
 ```code
