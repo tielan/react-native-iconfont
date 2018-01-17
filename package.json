@@ -1,6 +1,6 @@
 {
   "name": "react-native-iconfont",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "react-native-iconfont",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "url": "https://github.com/tielan/react-native-iconfont/issues"
   },
   "homepage": "https://github.com/tielan/react-native-iconfont#readme",
-  "dependencies": {
+  "devDependencies": {
     "react": "^16.2.0",
     "react-native": "^0.52.0"
   }

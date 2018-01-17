@@ -13,13 +13,13 @@ var styles = StyleSheet.create({
 class Icon extends React.Component {
   render() {
     const {
+      name,
+      color,
+      size,
       fontFamily,
       label,
       labelSize,
       labelColor,
-      icon,
-      iconColor,
-      iconSize,
       position,
       iconPadding,
       bgColor
@@ -27,7 +27,7 @@ class Icon extends React.Component {
 
     var direction = ((position == 'left' || position == 'right') ? 'row' : 'column');
 
-    var img = String.fromCharCode(parseInt(icon, 16));
+    var img = String.fromCharCode(parseInt(name, 16));
 
     return (
       <View style={[styles.container, { flexDirection: direction }]}>
@@ -43,7 +43,7 @@ class Icon extends React.Component {
               <Text style={{ fontSize: labelSize, color: labelColor, backgroundColor: bgColor }}>{label}</Text>
             </View> : null
         }
-        <Text style={{ fontSize: iconSize, color: iconColor, fontFamily: fontFamily, backgroundColor: bgColor }}>
+        <Text style={{ fontSize: size, color: color, fontFamily: fontFamily, backgroundColor: bgColor }}>
           {img}
         </Text>
         {
@@ -67,9 +67,9 @@ class Icon extends React.Component {
 //默认属性
 Icon.defaultProps = {
   fontFamily: 'iconfont',
-  iconColor: '#fff',
+  color: '#fff',
   position: 'right',
-  iconSize: 20,
+  size: 20,
   labelSize: 12,
   labelColor: '#000',
   bgColor: '#0000',
