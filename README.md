@@ -10,7 +10,7 @@ react-native-iconfont
 
 copy iconfont.ttf to  assets/fonts
 
-``
+```
 import Icon from 'react-native-iconfont';
 
 <Icon
@@ -20,3 +20,5 @@ import Icon from 'react-native-iconfont';
           label='left'
           iconColor='#000'
         />
+
+```
