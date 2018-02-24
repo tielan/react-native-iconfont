@@ -4,7 +4,6 @@ import { StyleSheet, View, Text } from 'react-native';
 
 var styles = StyleSheet.create({
   container: {
-    flex: 1,
     alignItems: 'center',
     justifyContent: 'center'
   }
